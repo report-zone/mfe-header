@@ -30,7 +30,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "header",
       library: { type: "var", name: "header" },
-      filename: "header.js",
+      filename: "headerRemoteEntry.js",
       exposes: {
         // expose each component
         "./Header": "./src/components/Header",

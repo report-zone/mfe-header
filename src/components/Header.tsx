@@ -17,7 +17,7 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit" component="div">
-            Mail
+            Permissions
           </Typography>
         </Toolbar>
       </AppBar>
